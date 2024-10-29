@@ -38,6 +38,6 @@ int main(void)
 		_putchar(',');
 		_putchar(' ');
 		_putchar(r + '0');
-		_putchar('\n)
+		_putchar('\n');
 		return (0);
 }
