@@ -6,9 +6,7 @@
  * Description: It prints the word Holberton, followed by a new line.
  * Return: 0.
  */
-int _putchar(char c) {
-	    return write(1, &c, 1);
-}
+
 int main(void)
 {
 		char word[9] = "_putchar";
