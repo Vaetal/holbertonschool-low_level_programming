@@ -15,11 +15,7 @@ void print_to_98(int n);
 void print_times_table(int n);
 void putformat(int);
 
-int main(void)
-{
-	  int r;
-
-	    r = print_sign(98);
+	  /*  r = print_sign(98);
 	      _putchar(',');
 	        _putchar(' ');
 		_putchar(r + '0');
@@ -40,4 +36,4 @@ int main(void)
 		_putchar(r + '0');
 		_putchar('\n');
 		return (0);
-}
+	       	*/
