@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <main.h>
 
 /*
  * times_table - Check description
@@ -6,7 +6,7 @@
  * Description: times_table
  * Return: Nothing.
  */
-void times_table(void)
+void times_table(void);
 {
 	int i, j, n;
 
