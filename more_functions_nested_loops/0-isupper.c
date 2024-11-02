@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-(int c)
+int _isupper(int c)
 {
 	char uppercase = 'A';
 	int isupper = 0;
