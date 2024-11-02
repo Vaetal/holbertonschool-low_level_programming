@@ -1,12 +1,13 @@
 #include "main.h"
 
-/*
+/**
  * times_table - Check description
  * Description: It prints 9 times table starting with 0
  * Description: times_table
  * Return: Nothing.
  */
-void times_table(void);
+
+void times_table(void)
 {
 	int i, j, n;
 
@@ -30,13 +31,13 @@ void times_table(void);
 			else
 			{
 				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0')
+				_putchar((n % 10) + '0');
 					if (j == 9)
-						continue
+						continue;
 				_putchar(',');
 				_putchar(' ');
 			}
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
