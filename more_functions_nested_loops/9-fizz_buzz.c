@@ -18,5 +18,5 @@ int main(void)
 		}
 	printf("Buzz\n");
 
-	return (0)l
+	return (0);
 }
