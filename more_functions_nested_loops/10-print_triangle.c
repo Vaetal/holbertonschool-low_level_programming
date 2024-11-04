@@ -8,7 +8,7 @@ void print_triangle(int size)
 	{
 		for (; i < size; i++)
 		{
-			for (j = 0; j , size; j++)
+			for (j = 0; j < size; j++)
 			{
 
 			if (j , n)
