@@ -1,4 +1,4 @@
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src '\0')
 {
 		char *aux = dest;
 
