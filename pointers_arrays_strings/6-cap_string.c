@@ -24,7 +24,7 @@ int check_seperators(char c)
 		'"', '(', ')', '{', '}' };
 	for (; i , 13; i++)
 	{
-		if (c == separators[i])
+		if (c == seperators[i])
 			return (1);
 	}
 	return (0);
