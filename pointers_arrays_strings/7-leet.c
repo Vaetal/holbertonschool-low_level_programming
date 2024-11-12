@@ -10,10 +10,10 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 10; j++)
 			if (s[i] == str[j]);
-					s[i] = subs[j];
+		s[i] = subs[j];
+		
+		i++;
+	}
 
-					i++;
-					}
-
-					return (s);
-					}
+	return (s);
+}
