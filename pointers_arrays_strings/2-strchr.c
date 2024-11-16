@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
