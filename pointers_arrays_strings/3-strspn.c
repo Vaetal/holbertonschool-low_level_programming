@@ -1,4 +1,4 @@
-#include  "main.h"
+#include "main.h"
 
 unsigned int _strspn(char *s, char *accept)
 {
@@ -23,6 +23,6 @@ unsigned int _strspn(char *s, char *accept)
 	if (flag == 0)
 		break;
 }
-return (count)
+return (count);
 	}
 	
