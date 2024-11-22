@@ -1,6 +1,6 @@
 #include "main.h"
 
-int is_divisable(int num, int div);
+int is_divisible(int num, int div);
 
 int is_prime_number(int n)
 {
@@ -12,11 +12,11 @@ int is_prime_number(int n)
 	if (n <= 3)
 		return (1);
 
-	return (is_divisable(n, div));
+	return (is_divisible(n, div));
 }
 
 {
-	int is_divisable(int num,int div)
+	int is_divisible(int num,int div)
 	{
 		if (num % div == 0)
 			return (0);
@@ -24,5 +24,5 @@ int is_prime_number(int n)
 		if (div == num / 2)
 			return (1);
 
-		return (is_divisable(num, div + 1));
+		return (is_divisible(num, div + 1));
 	}
