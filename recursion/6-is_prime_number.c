@@ -15,7 +15,7 @@ int is_prime_number(int n)
 	return (is_divisible(n, div));
 }
 
-{
+
 	int is_divisible(int num,int div)
 	{
 		if (num % div == 0)
