@@ -9,7 +9,7 @@
  * Return: Apointer to the array or NULL if it fails
  */
 
-char *create_arry(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *s;
 	unsigned int i = 0;
