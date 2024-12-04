@@ -8,7 +8,8 @@
  * @n: an input integer of number of string to concatenate
  * Return: Apointer to concatened strings or NULL if it str is NULL
  */
-char *string_noncat(char *s1, char *s2, unsigned int n)
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *new_str;
 	unsigned int i = 0, lens1 = 0, lens2 = 0;
