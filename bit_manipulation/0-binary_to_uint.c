@@ -1,4 +1,4 @@
-nclude "holberton.h"
+#include "holberton.h"
 
 /**
  * binary_to_uint - A finction that converts binary number
